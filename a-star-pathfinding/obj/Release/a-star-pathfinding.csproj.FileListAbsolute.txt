@@ -1,0 +1,5 @@
+C:\Users\oszto\Documents\SharpDevelop Projects\a-star-pathfinding\a-star-pathfinding\bin\Release\a-star-pathfinding.exe
+C:\Users\oszto\Documents\SharpDevelop Projects\a-star-pathfinding\a-star-pathfinding\obj\Release\a-star-pathfinding.csprojResolveAssemblyReference.cache
+C:\Users\oszto\Documents\SharpDevelop Projects\a-star-pathfinding\a-star-pathfinding\obj\Release\a_star_pathfinding.MainForm.resources
+C:\Users\oszto\Documents\SharpDevelop Projects\a-star-pathfinding\a-star-pathfinding\obj\Release\a-star-pathfinding.csproj.GenerateResource.Cache
+C:\Users\oszto\Documents\SharpDevelop Projects\a-star-pathfinding\a-star-pathfinding\obj\Release\a-star-pathfinding.exe
