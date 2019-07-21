@@ -17,7 +17,7 @@ namespace a_star_pathfinding
 		private int w = 600;
 		private Cell[,] grid;
 		private Cell target;
-		private int m=10;
+		private int m=6;
 		private int gridSize;
 		private AVLTree<Cell> OpenSet;
 		private Cell trace;
@@ -58,7 +58,7 @@ namespace a_star_pathfinding
 		
 		void Tick_timerTick(object sender, EventArgs e)
 		{
-			for(int i=0;i<1;i++)
+			for(int i=0;i<10;i++)
 			if (solveState == SolveState.FIND) {
 			
 					
@@ -72,7 +72,7 @@ namespace a_star_pathfinding
 	
 				List<Cell> neighbours = getNeighbours(current.i, current.k);
 				neighbours.ForEach(n => {
-		            int newGScore = current.hScore + Cell.d(current,n);
+		            int newGScore = current.gScore + Cell.d(current,n);
 		            if(newGScore<n.gScore){
 			            n.gScore=newGScore;
 			            n.fScore=n.hScore+n.gScore;
